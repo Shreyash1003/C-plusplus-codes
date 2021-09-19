@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;				//here we are assigning a, b and c integer type
+    cout << "Enter two numbers ";				//printing the line
+		cin >> a,b;				//taking input from user
+		c=a-b;
+		cout << "The difference of" << a << "and" << b << "is" << c;				//printing the difference
+		return 0;
+}
+
+OR
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;				//here we are assigning a, b and c integer type
+    cout << "Enter two numbers ";				//printing the line
+		cin >> a,b;				//taking input from user
+		c=a-b;
+		cout << "The difference is " << c;				//printing the difference
+		return 0;
+}
